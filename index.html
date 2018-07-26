@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nike</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="main-page">
+		<header class="header">
+			<img class="logo" src="img/logo.png" alt="logo">
+		</header>
+
+		<div class="content">
+			<section class="product .clearfix">
+				<div class="product__images">
+					<img class="product__imagemain" src="img/nikedark.png" alt="sneakers">
+				</div>
+				<ul class="sliderButton">
+					<li class="colorButton colorButton--black"></li>
+					<li class="colorButton colorButton--white"></li>
+					<li class="colorButton colorButton--red"></li>
+					<li class="colorButton colorButton--blue"></li>
+				</ul>
+			</section>
+			<section class="productInfo">
+				<h1 class="product__title">Nike SB Stefan <br>Janoski Max</h1>
+				<h3 class="product__specification">Unisex Skateboarding Shoe</h3>
+				<div class="rating">
+					<label><input class="rating__star" type="checkbox" value="1" name="rating1"><span></span></label>
+					<label><input class="rating__star" type="checkbox" value="2" name="rating2"><span></span></label>
+					<label><input class="rating__star" type="checkbox" value="3" name="rating3"><span></span></label>
+					<label><input class="rating__star" type="checkbox" value="4" name="rating4"><span></span></label>
+					<label><input class="rating__star" type="checkbox" value="5" name="rating5"><span></span></label>
+				</div>
+				<form class="selection">
+					<select class="buttonSelect button--hover" name="size">
+						<option disabled selected>Size</option>
+						<option value="39">39</option>
+						<option value="40">40</option>
+						<option value="42">42</option>
+						<option value="43">43</option>
+						<option value="44">44</option>
+						<option value="45">45</option>
+					</select>
+					<select class="buttonSelect button--hover" name="quantity">
+						<option disabled selected>Qty</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+					<input class="submit button--hover" type="submit" value="Add to cart">
+				</form>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
